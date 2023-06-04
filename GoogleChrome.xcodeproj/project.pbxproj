@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19AA973B2A2BF4CC003DC719 /* Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AA973A2A2BF4CC003DC719 /* Empty.swift */; };
+		19AA973E2A2BF789003DC719 /* Search1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AA973D2A2BF789003DC719 /* Search1.swift */; };
+		19AA97402A2C0C64003DC719 /* RealSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AA973F2A2C0C64003DC719 /* RealSearch.swift */; };
+		19AA97432A2C0EF9003DC719 /* View1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AA97422A2C0EF9003DC719 /* View1.swift */; };
+		19AA97452A2C0F25003DC719 /* CardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AA97442A2C0F25003DC719 /* CardInfo.swift */; };
+		19AA97472A2C0F54003DC719 /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AA97462A2C0F54003DC719 /* Plant.swift */; };
+		19AA97492A2C2062003DC719 /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AA97482A2C2062003DC719 /* View2.swift */; };
+		19AA974C2A2C2A27003DC719 /* Pages1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AA974B2A2C2A27003DC719 /* Pages1.swift */; };
+		19AA97502A2C5EEC003DC719 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19AA974F2A2C5EEB003DC719 /* Assets.xcassets */; };
+		19B669472A2BA68C00CDA0BB /* GoogleChromeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B669462A2BA68C00CDA0BB /* GoogleChromeApp.swift */; };
+		19B669492A2BA68C00CDA0BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B669482A2BA68C00CDA0BB /* ContentView.swift */; };
+		19B6694B2A2BA69000CDA0BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19B6694A2A2BA69000CDA0BB /* Assets.xcassets */; };
+		19B6694E2A2BA69000CDA0BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19B6694D2A2BA69000CDA0BB /* Preview Assets.xcassets */; };
+		19B669572A2BAB6F00CDA0BB /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B669562A2BAB6F00CDA0BB /* Search.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19AA973A2A2BF4CC003DC719 /* Empty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empty.swift; sourceTree = "<group>"; };
+		19AA973D2A2BF789003DC719 /* Search1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search1.swift; sourceTree = "<group>"; };
+		19AA973F2A2C0C64003DC719 /* RealSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealSearch.swift; sourceTree = "<group>"; };
+		19AA97422A2C0EF9003DC719 /* View1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View1.swift; sourceTree = "<group>"; };
+		19AA97442A2C0F25003DC719 /* CardInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInfo.swift; sourceTree = "<group>"; };
+		19AA97462A2C0F54003DC719 /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
+		19AA97482A2C2062003DC719 /* View2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View2.swift; sourceTree = "<group>"; };
+		19AA974B2A2C2A27003DC719 /* Pages1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pages1.swift; sourceTree = "<group>"; };
+		19AA974F2A2C5EEB003DC719 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../Downloads/AppIcons-5/Assets.xcassets"; sourceTree = "<group>"; };
+		19B669432A2BA68C00CDA0BB /* GoogleChrome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleChrome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19B669462A2BA68C00CDA0BB /* GoogleChromeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleChromeApp.swift; sourceTree = "<group>"; };
+		19B669482A2BA68C00CDA0BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		19B6694A2A2BA69000CDA0BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19B6694D2A2BA69000CDA0BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		19B669562A2BAB6F00CDA0BB /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19B669402A2BA68C00CDA0BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19AA973C2A2BF728003DC719 /* SearchView */ = {
+			isa = PBXGroup;
+			children = (
+				19B669562A2BAB6F00CDA0BB /* Search.swift */,
+				19AA973D2A2BF789003DC719 /* Search1.swift */,
+				19AA973F2A2C0C64003DC719 /* RealSearch.swift */,
+				19AA97412A2C0ED8003DC719 /* Views */,
+			);
+			path = SearchView;
+			sourceTree = "<group>";
+		};
+		19AA97412A2C0ED8003DC719 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				19AA97462A2C0F54003DC719 /* Plant.swift */,
+				19AA97422A2C0EF9003DC719 /* View1.swift */,
+				19AA97442A2C0F25003DC719 /* CardInfo.swift */,
+				19AA97482A2C2062003DC719 /* View2.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		19AA974A2A2C298B003DC719 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				19AA974B2A2C2A27003DC719 /* Pages1.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		19B6693A2A2BA68C00CDA0BB = {
+			isa = PBXGroup;
+			children = (
+				19B669452A2BA68C00CDA0BB /* GoogleChrome */,
+				19B669442A2BA68C00CDA0BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19B669442A2BA68C00CDA0BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19B669432A2BA68C00CDA0BB /* GoogleChrome.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19B669452A2BA68C00CDA0BB /* GoogleChrome */ = {
+			isa = PBXGroup;
+			children = (
+				19AA974A2A2C298B003DC719 /* Pages */,
+				19AA973C2A2BF728003DC719 /* SearchView */,
+				19B669462A2BA68C00CDA0BB /* GoogleChromeApp.swift */,
+				19B669482A2BA68C00CDA0BB /* ContentView.swift */,
+				19B6694A2A2BA69000CDA0BB /* Assets.xcassets */,
+				19AA974F2A2C5EEB003DC719 /* Assets.xcassets */,
+				19B6694C2A2BA69000CDA0BB /* Preview Content */,
+				19AA973A2A2BF4CC003DC719 /* Empty.swift */,
+			);
+			path = GoogleChrome;
+			sourceTree = "<group>";
+		};
+		19B6694C2A2BA69000CDA0BB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				19B6694D2A2BA69000CDA0BB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19B669422A2BA68C00CDA0BB /* GoogleChrome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19B669512A2BA69000CDA0BB /* Build configuration list for PBXNativeTarget "GoogleChrome" */;
+			buildPhases = (
+				19B6693F2A2BA68C00CDA0BB /* Sources */,
+				19B669402A2BA68C00CDA0BB /* Frameworks */,
+				19B669412A2BA68C00CDA0BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleChrome;
+			productName = GoogleChrome;
+			productReference = 19B669432A2BA68C00CDA0BB /* GoogleChrome.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19B6693B2A2BA68C00CDA0BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					19B669422A2BA68C00CDA0BB = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 19B6693E2A2BA68C00CDA0BB /* Build configuration list for PBXProject "GoogleChrome" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19B6693A2A2BA68C00CDA0BB;
+			productRefGroup = 19B669442A2BA68C00CDA0BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19B669422A2BA68C00CDA0BB /* GoogleChrome */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19B669412A2BA68C00CDA0BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B6694E2A2BA69000CDA0BB /* Preview Assets.xcassets in Resources */,
+				19AA97502A2C5EEC003DC719 /* Assets.xcassets in Resources */,
+				19B6694B2A2BA69000CDA0BB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19B6693F2A2BA68C00CDA0BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B669572A2BAB6F00CDA0BB /* Search.swift in Sources */,
+				19AA97472A2C0F54003DC719 /* Plant.swift in Sources */,
+				19AA973E2A2BF789003DC719 /* Search1.swift in Sources */,
+				19AA973B2A2BF4CC003DC719 /* Empty.swift in Sources */,
+				19AA97402A2C0C64003DC719 /* RealSearch.swift in Sources */,
+				19AA97492A2C2062003DC719 /* View2.swift in Sources */,
+				19B669492A2BA68C00CDA0BB /* ContentView.swift in Sources */,
+				19AA974C2A2C2A27003DC719 /* Pages1.swift in Sources */,
+				19B669472A2BA68C00CDA0BB /* GoogleChromeApp.swift in Sources */,
+				19AA97432A2C0EF9003DC719 /* View1.swift in Sources */,
+				19AA97452A2C0F25003DC719 /* CardInfo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		19B6694F2A2BA69000CDA0BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19B669502A2BA69000CDA0BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19B669522A2BA69000CDA0BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GoogleChrome/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.GoogleChrome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19B669532A2BA69000CDA0BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GoogleChrome/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.GoogleChrome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19B6693E2A2BA68C00CDA0BB /* Build configuration list for PBXProject "GoogleChrome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B6694F2A2BA69000CDA0BB /* Debug */,
+				19B669502A2BA69000CDA0BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19B669512A2BA69000CDA0BB /* Build configuration list for PBXNativeTarget "GoogleChrome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B669522A2BA69000CDA0BB /* Debug */,
+				19B669532A2BA69000CDA0BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19B6693B2A2BA68C00CDA0BB /* Project object */;
+}
